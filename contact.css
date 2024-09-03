@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    font-family:Helvetica, sans-serif,Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #2d423d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    height: 85px;
+}
+
+.logo img {
+    width: 180px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.logo span {
+    color: #f3c246;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: #f3c246;
+}
+.home{
+    height: 700px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.text h1{
+    font-size: 80px;
+    font-weight:700;
+    padding-top: 180px;
+    margin-left: 150px;
+}
+.login{
+    height: 800px;
+    width: 45%;
+    color: white;
+    background-color: rgb(1, 36, 1);
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+    margin-top: -360px;
+    border-radius: 20px;
+}
+.login h1{
+    padding-top: 50px;
+    margin-left: 60px;
+    font-size: 55px;
+}
+.login p{
+    margin-left: 70px;
+    font-size: 20px;
+}
+.login input{
+    height: 60px;
+    width: 40%;
+    margin-left: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.login button{
+    height: 60px;
+    width: 20%;
+    background-color: rgb(233, 214, 43);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+.phone{
+    background-color: rgb(6, 29, 6);
+    width: 100px;
+    height:90px;
+    margin-left: 160px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.phone i{
+    color: var(--color--black);
+    font-size: 35px;
+    color: white;
+    margin-left: 34px;
+    margin-top: 25px;
+}
+.phone h2{
+    margin-left: 130px;
+    margin-top: -40px;
+    font-size: 30;
+}
+.phone p{
+    margin-left: 130px;
+    font-size: 28px;
+}
+.out{
+    height: 1300px;
+    width: 90%;
+    background-color: aquamarine;
+    margin-left: 90px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.out h1{
+    padding-top: 40px;
+    padding-left: 80px;
+    font-size: 60px;
+}
+.out p{
+    padding-left: 80px;
+    font-size: 20px;
+}
+.card1{
+    height: 200px;
+    width: 90%;
+    margin-left:80px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.card1 h1{
+    font-size: 30px;
+    
+}
+.card1 label{
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left:20px;
+    padding-top:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card1 button{
+    height: 50px;
+    width: 7%;
+    background-color: rgb(233, 214, 43);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 15px;
+}
+.work h1{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 60px;
+}
+.work1{
+    height: 550px;
+    width: 45%;
+    background-color: rgb(3, 17, 3);
+    color: white;
+    margin-left: 70px;
+    float: left;
+    margin-top: 30px;
+}
+.work1 h2{
+    font-size: 30px;
+    margin-left:30px;
+}
+.work1 p{
+    font-size: 20px;
+    margin-left:30px;
+}
+.work2{
+    height: 550px;
+    width: 45%;
+    background-color: rgb(3, 17, 3);
+    color: white;
+    margin-left: 70px;
+    float: left;
+    margin-top: 30px;
+}
+.work2 h2{
+    font-size: 30px;
+    margin-left:30px;
+}
+.work2 p{
+    font-size: 20px;
+    margin-left:30px;
+}
+.maha{
+    margin-top: 1800px;
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color:#2d423d;;
+}
+.maha h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 70px;
+}
+.maha button{
+    margin-left: 750px;
+    margin-top: 50px;
+    height: 60px;
+    width: 10%;
+    background-color: rgb(233, 214, 43);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
