@@ -69,172 +69,100 @@ body {
 .login{
     height: 800px;
     width: 45%;
+    background-image: url(images/p7.webp);
+    background-size: cover;
     color: white;
-    background-color: rgb(1, 36, 1);
     align-items: center;
     justify-content: center;
     margin-left: 800px;
-    margin-top: -360px;
+    margin-top: -320px;
     border-radius: 20px;
 }
-.login h1{
-    padding-top: 50px;
-    margin-left: 60px;
+.box{
+    height: 200px;
+    width: 38%;
+    background-color: #2d423d;
+    color: white;
+    margin-left: 860px;
+    border-radius: 20px;
+    margin-top: -300px;
+}
+.box1{
+    float: left;
+    margin-left: 120px;
+}
+.box1 h1{
+    padding-top: 20px;
     font-size: 55px;
 }
-.login p{
+.box2{
+    float: left;
+    margin-left: 120px;
+}
+.box2 h1{
+    padding-top: 20px;
+    font-size: 55px;  
+}
+.para p{
+    margin-top: -70px;
     margin-left: 70px;
-    font-size: 20px;
-}
-.login input{
-    height: 60px;
-    width: 40%;
-    margin-left: 45px;
-    border: none;
-    border-radius: 10px;
-}
-.login button{
-    height: 60px;
-    width: 20%;
-    background-color: rgb(233, 214, 43);
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
-    margin-left: 60px;
-}
-.phone{
-    background-color: rgb(6, 29, 6);
-    width: 100px;
-    height:90px;
-    margin-left: 160px;
-    border-radius: 50px;
-    margin-top: 40px;
-}
-.phone i{
-    color: var(--color--black);
-    font-size: 35px;
-    color: white;
-    margin-left: 34px;
-    margin-top: 25px;
-}
-.phone h2{
-    margin-left: 130px;
-    margin-top: -40px;
-    font-size: 30;
-}
-.phone p{
-    margin-left: 130px;
-    font-size: 28px;
+    font-size: 25px;
 }
 .out{
     height: 1300px;
     width: 90%;
-    background-color: aquamarine;
+    background-color: rgb(197, 127, 36);
     margin-left: 90px;
     border-radius: 20px;
     margin-top: 100px;
 }
-.out h1{
-    padding-top: 40px;
-    padding-left: 80px;
-    font-size: 60px;
-}
-.out p{
-    padding-left: 80px;
-    font-size: 20px;
-}
-.card1{
-    height: 200px;
-    width: 90%;
-    margin-left:80px;
+.card{
+    height: 1100px;
+    width: 80%;
+    margin-left:170px;
     background-color: white;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: -1200px;
+}
+.card1 {
+    height: 800px;
+    width: 33%;
+    background-color: aliceblue;
 }
 .card1 h1{
-    font-size: 30px;
-    
-}
-.card1 label{
-    border: solid 1px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-left:20px;
-    padding-top:10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 40px;
 }
 .card1 button{
-    height: 50px;
-    width: 7%;
-    background-color: rgb(233, 214, 43);
+    height: 60px;
+    width: 57%;
+    background-color: rgb(212, 124, 22);
     color: white;
     font-size: 20px;
     border-radius: 20px;
     border: none;
-    margin-left: 15px;
-}
-.work h1{
-    margin-top: 100px;
-    margin-left: 80px;
-    font-size: 60px;
-}
-.work1{
-    height: 550px;
-    width: 45%;
-    background-color: rgb(3, 17, 3);
-    color: white;
-    margin-left: 70px;
-    float: left;
+    margin-left: 40px;
     margin-top: 30px;
 }
-.work1 h2{
-    font-size: 30px;
-    margin-left:30px;
-}
-.work1 p{
-    font-size: 20px;
-    margin-left:30px;
-}
-.work2{
-    height: 550px;
-    width: 45%;
-    background-color: rgb(3, 17, 3);
-    color: white;
-    margin-left: 70px;
-    float: left;
-    margin-top: 30px;
-}
-.work2 h2{
-    font-size: 30px;
-    margin-left:30px;
-}
-.work2 p{
-    font-size: 20px;
-    margin-left:30px;
-}
-.maha{
-    margin-top: 1800px;
-    height: 300px;
-    width: 100%;
-    color: white;
-    background-color:#2d423d;;
-}
-.maha h1{
-    font-size: 60px;
-    text-align: center;
-    padding-top: 70px;
-}
-.maha button{
-    margin-left: 750px;
+.sub-menu{
+    list-style-type: none;
+    text-decoration: none;
     margin-top: 50px;
-    height: 60px;
-    width: 10%;
-    background-color: rgb(233, 214, 43);
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
-    
+    list-style: none;
+}
+.sub-menu li {
+    margin-top: 40px;
+    border-bottom: gray 0.5px solid;
+}
+.sub-menu li img{
+    margin-left: 60px;
+}
+
+.sub-menu li a {
+    color:rgb(5, 4, 4);
+    font-size: 26px;
+    margin-left: 20px;
 }
 footer {
     background-color: #162219;
